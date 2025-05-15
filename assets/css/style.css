@@ -1,7 +1,12 @@
 html{
     font-family: 'inter',serif;
+    
+    
+    color:#fff;
+
     background-image: url('/assets/media/hurst.jpg');
     background-size: auto;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 header{
@@ -22,6 +27,12 @@ li{
 }
 li a{
 
+}
+section{
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    
 }
 /* Landscape (horizontal tablet, desktop, etc. */
 @media only screen and (min-width:992px){
