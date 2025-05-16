@@ -1,25 +1,25 @@
 html{
     font-family: 'inter',serif;
-    
-    
+        
     color:#fff;
 
     background-image: url('/assets/media/hurst.jpg');
-    background-size: auto;
-    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 button{
-    background-color: ;
+    /* background-color:  */
 }
+
 header{
     position:-webkit-sticky;
     position:sticky;
     top:0;
     background-color: black;
     color:#fff;
-    
+
     display:flex;
     align-items: center;
 }
@@ -30,7 +30,7 @@ nav{
     z-index: 1;
     top:0;
     left:0;
-    background-color: burlywood;
+    background-color: rgba(0,0,0,0.5);
     overflow-y: hidden;
     transition: 0.3s;
 
@@ -44,8 +44,16 @@ nav a{
     transition: 0.3s;    
 }
 
+nav a:visited{
+    color:#fff;
+}
+
+nav a:active{
+    color:#000;
+}
+
 .nav a:hover {
-    color: aqua;
+    color: #000;
 }
 
 .nav .closebtn {
@@ -56,22 +64,34 @@ nav a{
   margin-left: 50px;
 }
 
+.closebtn{
+  background: rgba(0, 0, 0, 0);
+}
+
 .openbtn {
   font-size: 20px;
   cursor: pointer;
+  background: rgba(0,0,0,0.5);
   /* background-color: #111; */
-  /* color: white; */
+  color: white;
   padding: 10px 15px;
   border: none;
 }
 
+body{
+    /* padding-left: 10px; */
+}
 
 section{
+    padding-left: 10px;
     background-color: #000;
     text-align: center;
-    padding: 15px;
+    height: 250px;
+    width:75%''
     
 }
+
+
 /* Landscape (horizontal tablet, desktop, etc. */
 @media only screen and (min-width:992px){
 
