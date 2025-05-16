@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
         <link rel="stylesheet" href="assets/css/style.css">
         <script src="./assets/scripts/script.js"></script>
         <title>Hurst Plumbing</title>
@@ -12,14 +13,14 @@
         <header>
             <nav>
                 <h2>Navigation</h2>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#overview">Overview</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contactAndLocation">Contact & Location</a></li>
-                    <li><a href="#reviews">Reviews</a></li>
-                </ul>
+                    <button class="closebtn" onclick="closeNav()"><span class="material-symbols-outlined">close</span></button>
+                    <a href="#home">Home</a>
+                    <a href="#overview">Overview</a>
+                    <a href="#services">Services</a>
+                    <a href="#contactAndLocation">Contact & Location</a>
+                    <a href="#reviews">Reviews</a>
             </nav>
+            <button class="openbtn" onclick="openNav()"><span class="material-symbols-outlined">menu</span> </button>  
             <h1>Kevin Hurst Plumbing & Handyman</h1>
         </header>
         <section class="content_section" id="home">
