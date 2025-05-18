@@ -25,23 +25,24 @@ header{
 }
 nav{
     height: 100%;
-    width:0;
+    width:25%;
+    display: flex;
+    flex-direction: column;
     position:fixed;
+    visibility:hidden;
     z-index: 1;
     top:0;
     left:0;
     background-color: rgba(0,0,0,0.5);
     overflow-y: hidden;
-    transition: 0.3s;
-
 }
 
 nav a{
+    flex-shrink: 1;
     padding:8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 24;
-    display: block;
-    transition: 0.3s;    
+    font-size: 24px;
+
 }
 
 nav a:visited{
@@ -72,22 +73,28 @@ nav a:active{
   font-size: 20px;
   cursor: pointer;
   background: rgba(0,0,0,0.5);
-  /* background-color: #111; */
   color: white;
   padding: 10px 15px;
   border: none;
 }
 
-body{
-    /* padding-left: 10px; */
+#content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section{
-    padding-left: 10px;
+    display:block;
     background-color: #000;
-    text-align: center;
-    height: 250px;
-    width:75%''
+    text-align: center; 
+    /* gap: 10%; */
+
+}
+
+#home{
+    background-color:rgba(0,0,0,0);
+    color:#000;
     
 }
 
@@ -99,5 +106,7 @@ section{
 
 /* Mobile Design */
 @media only screen and (max-width: 600px){
-
+    nav a{
+        /* font-size: 18px; */
+    }
 }

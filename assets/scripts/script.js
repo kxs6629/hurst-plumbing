@@ -1,9 +1,7 @@
 function openNav() {
-  document.getElementsByTagName("nav")[0].style.width = "250px";
-  document.getElementsByTagName("body")[0].style.marginLeft = "250px";
+  document.getElementsByTagName("nav")[0].style.visibility = "visible";
 }
 
 function closeNav() {
-  document.getElementsByTagName("nav")[0].style.width = "0";
-  document.getElementsByTagName("body")[0].style.marginLeft= "0";
+  document.getElementsByTagName("nav")[0].style.visibility = "hidden";
 }
