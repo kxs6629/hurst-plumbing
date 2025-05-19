@@ -1,10 +1,7 @@
 # TO DO
 
 ## Development
-1. HTML Scaffolding
-2. CSS design
-    - Upload background image (also optimize beforehand)
-3. JS functionality?
+1. CSS finishing touches
 
 ## Deployment
-1. Hostinger set up / pipeline?
+1. Nixihost set up / pipeline

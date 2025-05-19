@@ -13,12 +13,10 @@
         <header>
             <nav>
                 <h2>Navigation</h2>
-                    <button class="closebtn" onclick="closeNav()">Close Menu</button>
-                    <a href="#home">Home</a>
-                    <a href="#overview">Overview</a>
+                    <button class="closebtn" onclick="closeNav()"><span class="material-symbols-outlined">close</span></button>
+                    <a href="#welcome">Welcome</a>
                     <a href="#services">Services</a>
                     <a href="#contactAndLocation">Contact & Location</a>
-                    <!-- <a href="#reviews">Reviews</a> -->
             </nav>
             <button class="openbtn" onclick="openNav()"><span class="material-symbols-outlined">menu</span> </button>  
             <h1>Hurst Plumbing & Handyman</h1>
@@ -27,35 +25,44 @@
         <div id="content-box" onclick="closeNav()">
 
             <img src="assets/media/hurst_banner.jpg" alt="Kevin Hurst Plummbing business card" id="cover_img">
-
+<!-- 
             <section class="content_section" id="home">
                 <h2>Home</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
+                <p>Welcome to Hurst Plumbing & Handyman!</p>
+            </section> -->
 
             <section class="content_section" id="overview">
-                <h2>Overview</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2>Welcome!</h2>
+                <p>Hurst Plumbing & Handyman is a fully insured plumber and repairman located in Highland Falls, New York. Whether its leaky pipes, line repairs, or appliance installs, you've come to the right place!</p>
             </section>
 
             <section class="content_section" id="services">
                 <h2>Services</h2>
-                <p>Below are the list of services provded: </p>
+                <p>Below is a list of services provded: </p>
                 <ul>
-                    <li>elements here</li>
-                    <li>elements here</li>
-                    <li>elements here</li>
-                    <li>elements here</li>
-                    <li>elements here</li>
-                    <li>elements here</li>
+                    <li>High Pressure Water Jetting</li>
+                    <li>Pipe Thawing</li>
+                    <li>Natural Gas Line Repair</li>
+                    <li>Hot Water Tanks</li>
+                    <li>Rotary Electric Sewer & Drain Cleaning</li>
+                    <li>Appliance Installations</li>
+                    <li>Ice Maker Lines</li>
+                    <li>Natural Gas Appliances Installed</li>
+                    <li>Toilet and Sink Repairs / Installs</li>
+                    <li>Boiler Installation and Repairs</li>
+                    <li>Video Pipe Inspection</li>
                 </ul>
             </section>
 
             <section class="content_section" id="contactAndLocation">
-                <h2>Contact & Location</h2>
+                <h2>Location & Contact</h2>
+                <p>test</p>
                 <!-- <iframe id="embed_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5118.749664459191!2d-73.97487672269321!3d41.3727982968979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2cc501ea88d6b%3A0x81330448aef1f95d!2sKevin%20Hurst%20Plumbing%20%26%20Handyman!5e1!3m2!1sen!2sus!4v1747626998572!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-                <p>Phone: (123) 456-7890</p>
-                <p>Email: realemail@email.com</p>
+                <div id="contactInfo">
+                    <p>Office Phone: <a href="tel:8454465643">(845) 446-5643</a></p>
+                    <p>Mobile Phone: <a href="tel:8452386463">(845) 238-6463</a></p>
+                    <p>Email: <a href="mailto:KevinPLHM@verizon.net">KevinPLHM@verizon.net</a></p>
+                </div>
             </section>
             <!--
                 leaving out for now since we should figure out legality of using reviews 
@@ -66,6 +73,7 @@
              -->
         </div>
             
+        <br>
         <footer>
             <p>Designed and developed by: Ken Scott</p>
             <a href="https://kxs6629.github.io/PortfolioSite/">Click here to contact me!</a>
