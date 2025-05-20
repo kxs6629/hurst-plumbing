@@ -1,7 +1,7 @@
 # TO DO
 
 ## Development
-1. CSS finishing touches
+* nothing to play
 
 ## Deployment
 1. Nixihost set up / pipeline
