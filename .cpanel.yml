@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/hurstplu/repositories/hurst-plumbing 
+    - export DEPLOYPATH=/home/user/public_html
     - /bin/cp index.html $DEPLOYPATH
-    -  /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
