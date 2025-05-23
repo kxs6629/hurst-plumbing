@@ -39,7 +39,6 @@ nav{
     z-index: 1;
     top:0;
     left:0;
-    /* background-color: rgba(0,0,0,0.9); */
     background-color: rgba(14,11,20,0.9);
 
     overflow-y: hidden;
@@ -70,7 +69,6 @@ nav .closebtn {
 section{
     display:block;
     padding:2em;
-    /* background-color: #000; */
     background-color: rgba(14,11,20,1.0);
 
     text-align: center; 
